@@ -1,0 +1,30 @@
+NameError            沒有申明的變量
+ZeroDivisionError    除數為零
+syntaxError          與法錯誤
+IndexError           索引超出序列範圍
+KeyError             請求一個不存在的字典關鍵字
+IOError              輸入輸出錯誤
+AttributeError       未知的對象屬性
+
+
+try...except...
+
+#如果沒有異常後則執行else
+try...except...except   else
+
+
+example:
+
+
+
+#a可以為任意字母
+try:
+  ....
+except ValueError,a:
+ 
+#不管如何finally都會執行
+try:
+  .....
+except
+  .....
+finally
