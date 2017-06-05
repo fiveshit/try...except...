@@ -1,0 +1,16 @@
+# 異常的引發
+
+raise NameError
+
+
+#自定義異常
+class RhhError(exception):
+  def __init__(self,x,y):
+    Exception.__init__(self,x,y)
+    self.x = 0
+    self.y = 0
+try:
+  if x > x or x+y > 7:
+    rasise RhhError(x,y)
+except RhhError(x,y):
+  ....
